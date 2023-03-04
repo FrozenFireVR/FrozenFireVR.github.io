@@ -1,6 +1,6 @@
-import { EffectComposer } from "./EffectComposer.js";
-import { RenderPass } from "./RenderPass.js";
-import { UnrealBloomPass } from "./UnrealBloomPass.js";
+import { EffectComposer } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/UnrealBloomPass.js";
 
 var options = {
   exposure: 2.8,
